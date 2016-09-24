@@ -1,0 +1,6 @@
+atom-beautify
+file-icons
+linter
+open-recent
+spacegray-dark-neue-syntax
+spacegray-dark-neue-ui

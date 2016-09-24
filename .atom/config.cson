@@ -1,0 +1,34 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "7e91a837-6687-4562-88fa-a24ec0770add"
+    html:
+      beautify_on_save: true
+      end_with_newline: true
+    js:
+      beautify_on_save: true
+      end_with_newline: true
+      indent_with_tabs: true
+    json:
+      beautify_on_save: true
+      end_with_newline: true
+      indent_with_tabs: true
+  core:
+    projectHome: "/Users/magnus/code"
+    themes: [
+      "spacegray-dark-neue-ui"
+      "spacegray-dark-neue-syntax"
+    ]
+  editor:
+    fontFamily: "Droid Sans Mono"
+    softTabs: false
+    softWrap: true
+    tabLength: 4
+    tabType: "hard"
+  "exception-reporting":
+    userId: "ef290949-352a-569a-60cc-777b137b21b9"
+  linter:
+    showErrorTabLine: true
+    statusIconScope: "File"
+  welcome:
+    showOnStartup: false
