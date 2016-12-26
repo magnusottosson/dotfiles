@@ -23,3 +23,7 @@ source scripts/atom-install-packages.sh
 # Set OS X preferences
 # We will run this last because this will reload the shell
 # source .osx
+
+source scripts/rvm-install.sh
+
+source scripts/bower-install.sh
