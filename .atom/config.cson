@@ -15,6 +15,7 @@
       indent_with_tabs: true
   core:
     projectHome: "/Users/magnus/code"
+    telemetryConsent: "limited"
     themes: [
       "spacegray-dark-neue-ui"
       "spacegray-dark-neue-syntax"
