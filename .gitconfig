@@ -60,3 +60,6 @@
 	clean = git lfs clean %f
 	smudge = git lfs smudge %f
 	required = true
+
+[alias]
+	kill = "!f(){ git branch -D \"$1\";  git push origin --delete \"$1\"; };f"
