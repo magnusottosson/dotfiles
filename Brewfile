@@ -29,6 +29,7 @@ brew 'wget'
 # Apps
 cask '1password'
 cask 'adobe-illustrator-cc'
+cask 'adobe-indesign-cc'
 cask 'adobe-photoshop-cc'
 cask 'adobe-photoshop-lightroom'
 cask 'arq'
