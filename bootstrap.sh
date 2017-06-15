@@ -26,4 +26,5 @@ source scripts/atom-install-packages.sh
 
 source scripts/rvm-install.sh
 
+source scripts/npm-install-packages.sh
 source scripts/bower-install.sh
