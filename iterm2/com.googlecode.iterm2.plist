@@ -8,6 +8,8 @@
 	<integer>0</integer>
 	<key>AppleSmoothFixedFontsSizeThreshold</key>
 	<integer>1</integer>
+	<key>AppleWindowTabbingMode</key>
+	<string>manual</string>
 	<key>Custom Color Presets</key>
 	<dict>
 		<key>SpaceGray</key>
@@ -822,16 +824,20 @@
 	<string>DCC4A401-7FD6-4AD8-869F-99A6127CFD0A</string>
 	<key>DimOnlyText</key>
 	<false/>
+	<key>HideFromDockAndAppSwitcher</key>
+	<true/>
 	<key>HotKeyBookmark</key>
 	<string>DCC4A401-7FD6-4AD8-869F-99A6127CFD0A</string>
 	<key>HotKeyTogglesWindow</key>
 	<true/>
 	<key>Hotkey</key>
-	<true/>
+	<false/>
 	<key>HotkeyChar</key>
-	<integer>60</integer>
+	<integer>0</integer>
 	<key>HotkeyCode</key>
-	<integer>50</integer>
+	<integer>0</integer>
+	<key>HotkeyMigratedFromSingleToMulti</key>
+	<true/>
 	<key>HotkeyModifiers</key>
 	<integer>262401</integer>
 	<key>LoadPrefsFromCustomFolder</key>
@@ -861,7 +867,7 @@
 	gAKACoAN0xAJChEVGVdOUy5rZXlzoxITFIADgASABaMWFxiABoAHgAiACVpJZGVudGlm
 	aWVyVVdpZHRoVkhpZGRlblEwI0BowAAAAAAACNIhIiMkWiRjbGFzc25hbWVYJGNsYXNz
 	ZXNcTlNEaWN0aW9uYXJ5oiMlWE5TT2JqZWN00xAJCicrGaMSExSAA4AEgAWjLC0YgAuA
-	DIAIgAlRMSNAczAAAAAAANIhIjM0Xk5TTXV0YWJsZUFycmF5ozM1JVdOU0FycmF5XxAP
+	DIAIgAlRMSNAc7AAAAAAANIhIjM0Xk5TTXV0YWJsZUFycmF5ozM1JVdOU0FycmF5XxAP
 	TlNLZXllZEFyY2hpdmVy0Tg5VUFycmF5gAEACAARABoAIwAtADIANwBGAEwAUQBcAGMA
 	ZgBoAGoAbABzAHsAfwCBAIMAhQCJAIsAjQCPAJEAnACiAKkAqwC0ALUAugDFAM4A2wDe
 	AOcA7gDyAPQA9gD4APwA/gEAAQIBBAEGAQ8BFAEjAScBLwFBAUQBSgAAAAAAAAIBAAAA
@@ -885,11 +891,13 @@
 	<key>NSWindow Frame NSColorPanel</key>
 	<string>975 570 228 297 0 0 2560 1418 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>970 770 620 392 0 0 2560 1418 </string>
+	<string>970 769 620 392 0 0 2560 1418 </string>
+	<key>NSWindow Frame SessionsPreferences</key>
+	<string>269 139 606 456 0 0 2560 1418 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>777 851 937 512 0 0 2560 1418 </string>
+	<string>777 947 770 429 0 0 2560 1418 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 967 2560 451 0 0 2560 1418 </string>
+	<string>0 989 2560 429 0 0 2560 1418 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1778,8 +1786,28 @@
 			</dict>
 			<key>Guid</key>
 			<string>DCC4A401-7FD6-4AD8-869F-99A6127CFD0A</string>
+			<key>Has Hotkey</key>
+			<true/>
 			<key>Horizontal Spacing</key>
 			<real>1</real>
+			<key>HotKey Characters</key>
+			<string>&lt;</string>
+			<key>HotKey Characters Ignoring Modifiers</key>
+			<string>&lt;</string>
+			<key>HotKey Key Code</key>
+			<integer>50</integer>
+			<key>HotKey Modifier Flags</key>
+			<integer>262401</integer>
+			<key>HotKey Window Animates</key>
+			<true/>
+			<key>HotKey Window AutoHides</key>
+			<true/>
+			<key>HotKey Window Dock Click Action</key>
+			<integer>0</integer>
+			<key>HotKey Window Floats</key>
+			<false/>
+			<key>HotKey Window Reopens On Activation</key>
+			<false/>
 			<key>Idle Code</key>
 			<integer>0</integer>
 			<key>Jobs to Ignore</key>
@@ -2167,8 +2195,14 @@
 	<true/>
 	<key>NoSyncDoNotWarnBeforeMultilinePaste_selection</key>
 	<integer>0</integer>
+	<key>NoSyncHaveWarnedAboutIncompatibleSoftware</key>
+	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>4BCE2DC7-103A-4BDF-97F6-BF5C5D70C036</string>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
+	<true/>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
+	<integer>0</integer>
 	<key>NoSyncPermissionToShowTip</key>
 	<false/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
@@ -2179,6 +2213,8 @@
 	<false/>
 	<key>OpenNoWindowsAtStartup</key>
 	<true/>
+	<key>PasteTabToStringTabStopSize</key>
+	<integer>4</integer>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -2225,7 +2261,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-06-13T05:40:48Z</date>
+	<date>2017-11-01T13:16:10Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
@@ -2237,7 +2273,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.15</string>
+	<string>3.1.4</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
