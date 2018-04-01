@@ -5,6 +5,7 @@ cd ~/dotfiles;
 rsync --exclude ".git/" \
 --exclude ".DS_Store" \
 --exclude ".macos" \
+--exclude ".atom" \
 --exclude "atom-package-list.txt" \
 --exclude "bootstrap.sh" \
 --exclude "Brewfile" \

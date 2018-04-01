@@ -8,6 +8,7 @@ echo "Setting up your Mac..."
 cd ~/dotfiles;
 
 source scripts/copy-dotfiles.sh
+source scripts/atom-create-symlink.sh
 
 # Check for Homebrew and install if we don't have it
 if test ! $(which brew); then

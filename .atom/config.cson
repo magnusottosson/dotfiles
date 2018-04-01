@@ -4,15 +4,18 @@
       _analyticsUserId: "7e91a837-6687-4562-88fa-a24ec0770add"
     html:
       beautify_on_save: true
+      default_beautifier: "Pretty Diff"
       end_with_newline: true
+      indent_inner_html: true
     js:
       beautify_on_save: true
       end_with_newline: true
       indent_with_tabs: true
     json:
-      beautify_on_save: true
       end_with_newline: true
       indent_with_tabs: true
+    typescript:
+      beautify_on_save: true
   core:
     projectHome: "/Users/magnus/code"
     telemetryConsent: "limited"
@@ -23,13 +26,22 @@
   editor:
     fontFamily: "Droid Sans Mono"
     softTabs: false
-    softWrap: true
     tabLength: 4
     tabType: "hard"
   "exception-reporting":
     userId: "ef290949-352a-569a-60cc-777b137b21b9"
-  linter:
-    showErrorTabLine: true
-    statusIconScope: "File"
+  linter: {}
+  "linter-ui-default": {}
+  "tree-view":
+    autoReveal: true
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
+".source.ts":
+  editor:
+    autoIndent: false
+    autoIndentOnPaste: false
+".source.tsx":
+  editor:
+    autoIndent: false
+    autoIndentOnPaste: false
