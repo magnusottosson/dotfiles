@@ -4,7 +4,8 @@ echo 'NPM: Installing packages...'
 npm update -g
 
 PACKAGES=(
-  npm-check-updates
+  npm-check-updates,
+  now
   )
 
 npm install -g ${PACKAGES[@]}

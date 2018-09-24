@@ -895,9 +895,9 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>269 139 606 456 0 0 2560 1418 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>777 947 770 429 0 0 2560 1418 </string>
+	<string>777 890 796 486 0 0 2560 1418 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 989 2560 429 0 0 2560 1418 </string>
+	<string>0 1418 2560 453 0 0 2560 1418 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1498,6 +1498,8 @@
 				<real>0.084356146069802213</real>
 			</dict>
 			<key>Send Code When Idle</key>
+			<false/>
+			<key>Set Local Environment Vars</key>
 			<false/>
 			<key>Shortcut</key>
 			<string></string>
@@ -2157,6 +2159,8 @@
 			</dict>
 			<key>Send Code When Idle</key>
 			<false/>
+			<key>Set Local Environment Vars</key>
+			<false/>
 			<key>Shortcut</key>
 			<string></string>
 			<key>Silence Bell</key>
@@ -2261,7 +2265,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-11-01T13:16:10Z</date>
+	<date>2018-08-30T11:25:46Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
@@ -2270,10 +2274,12 @@
 	<string>/-+\~_.</string>
 	<key>findIgnoreCase_iTerm</key>
 	<true/>
+	<key>findMode_iTerm</key>
+	<integer>0</integer>
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.1.4</string>
+	<string>3.2.0</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>

@@ -16,6 +16,8 @@
       indent_with_tabs: true
     typescript:
       beautify_on_save: true
+  "atom-package-deps":
+    ignored: []
   core:
     projectHome: "/Users/magnus/code"
     telemetryConsent: "limited"
@@ -37,6 +39,9 @@
     hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
+  "xatom-debug":
+    showToolbarIcon: false
+    toolbarStyle: "BottomPanel"
 ".source.ts":
   editor:
     autoIndent: false
