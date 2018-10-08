@@ -5,8 +5,10 @@ npm update -g
 
 PACKAGES=(
   npm-check-updates,
-  now
-  )
+  now,
+  pure-prompt,
+  eslint
+)
 
 npm install -g ${PACKAGES[@]}
 echo 'NPM: Finished installing packages'
