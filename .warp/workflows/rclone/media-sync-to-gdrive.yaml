@@ -1,0 +1,7 @@
+name: Upload media files to Google Drive
+command: rclone move ~/Movies/plex gdrive:/plex --log-level INFO --fast-list --delete-empty-src-dirs
+tags:
+  - rclone
+  - gdrive
+author: Magnus-Ottosson
+author_url: "https://github.com/magnusottosson"
