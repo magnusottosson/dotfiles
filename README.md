@@ -1,12 +1,6 @@
-# Magnus's Dotfiles
+# A Fresh OS X Setup
 
-## What Is This?
-
-This repository serves as my way to help me setup and maintain my Mac. It takes the effort out of installing everything manually. Everything which is needed to install my preferred setup of OS X is detailed in this readme. Feel free to explore, learn and copy parts for your own dotfiles. Enjoy! :smile:
-
-Read the blog post: https://driesvints.com/blog/getting-started-with-dotfiles
-
-## A Fresh OS X Setup
+How to install a fresh OS X booting of internet: https://support.apple.com/en-gb/guide/mac-help/mchlp1599/mac
 
 Follow these install instructions to setup a new Mac.
 
@@ -18,12 +12,12 @@ Follow these install instructions to setup a new Mac.
 xcode-select --install
 ```
 
-## Install brew
+## Brew
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-## Taps
+### Taps
 ```
 brew tap homebrew/cask-fonts iina/homebrew-mpv-iina
 ```
