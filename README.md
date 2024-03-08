@@ -19,20 +19,25 @@ xcode-select --install
 ```
 ### Taps
 ```
-brew tap homebrew/cask-fonts iina/homebrew-mpv-iina
+brew tap homebrew/cask-fonts
+brew tap iina/homebrew-mpv-iina
 ```
 
 ### Brews
 
 ```
 brew install \
+azure-cli \
 docker-compose \
 git \
+gnupg \
+gpg2 \
 k6 \
 mpv-iina \
 n \
+pinentry-mac \
 rclone \
-/
+stats
 ```
 
 ### Casks
@@ -50,15 +55,17 @@ google-chrome \
 google-drive \
 kaleidoscope \
 logi-options-plus \
+messenger \
+opal-composer \
 rectangle \
 signal \
 slack \
 spotify \
+usr-sse2-rdm \
 visual-studio-code \
 warp \
 whatsapp \
-zoom \
-/
+zoom
 ```
 
 ## Fonts
@@ -87,6 +94,11 @@ export GPG_TTY=$(tty)
 .ssh
 .npmrc
 .gitconfig
+```
+
+## Screenshots
+```
+defaults write com.apple.screencapture location /Users/magnus/Downloads/
 ```
 
 ## Other apps
